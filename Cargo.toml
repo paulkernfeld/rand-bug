@@ -1,0 +1,8 @@
+[package]
+edition = "2018"
+name = "rand-stm32f3xx-stdrng-bug"
+version = "0.1.0"
+
+[dependencies]
+cortex-m-rt = "0.6.13"
+rand = { version = "0.7.3", default-features = false }
